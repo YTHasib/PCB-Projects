@@ -1,0 +1,32 @@
+# DC Timer Using MOSFET PCB
+
+A simple DC delay timer circuit that activates a buzzer after a set time delay using an RC network and a MOSFET switch.
+
+## Overview
+This project demonstrates how passive components and a MOSFET can be used to create a time-delay switching circuit suitable for alarms, reminders, or delayed activation systems.
+
+## Key Features
+- RC-based timing control
+- BS107 MOSFET used as a low-side switch
+- Buzzer output for audible indication
+- Battery-powered operation
+- Minimal component count
+
+## How It Works
+The capacitor charges through a resistor. Once the MOSFET gate voltage exceeds its threshold, the MOSFET turns on and activates the buzzer after a delay.
+
+## Files Included
+- DC Timer using mosfet.kicad_sch – Schematic
+- PCB layout file
+- Schematic PDF
+- 3D PCB render
+
+## Tools Used
+- KiCad 9
+- Discrete analog components
+
+## Skills Demonstrated
+- MOSFET switching
+- RC timing circuits
+- Power electronics basics
+- Compact PCB design

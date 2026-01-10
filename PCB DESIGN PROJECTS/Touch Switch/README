@@ -1,0 +1,32 @@
+# Touch Switch PCB
+
+A capacitive touch-activated switch implemented using a 555 timer to toggle an output when a touch input is detected.
+
+## Overview
+This project demonstrates a simple human-interface circuit where touch input changes the capacitance at the trigger node, causing the circuit to activate an output indicator.
+
+## Key Features
+- Capacitive touch input pad
+- NE555 timer-based control logic
+- LED and buzzer output indicators
+- Operates on 5 V DC
+- Simple and intuitive user interaction
+
+## How It Works
+Touching the input pad alters the capacitance at the trigger pin of the 555 timer, changing its state and activating the output indicators.
+
+## Files Included
+- Touch Switch.kicad_sch – Schematic
+- PCB layout file
+- Schematic PDF
+- 3D PCB render
+
+## Tools Used
+- KiCad 9
+- Through-hole components
+
+## Skills Demonstrated
+- Capacitive sensing concepts
+- Human-interface circuit design
+- Timing and trigger circuits
+- PCB layout and visualization

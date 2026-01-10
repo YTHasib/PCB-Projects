@@ -1,0 +1,34 @@
+# IR Switch PCB
+
+An infrared-controlled switch that detects IR signals and generates a stable output using a TSOP IR receiver and a 555 timer.
+
+## Overview
+This PCB allows remote switching using an IR transmitter. The received signal is conditioned using a 555 timer to produce a reliable output signal and visual feedback.
+
+## Key Features
+- TSOP17xx infrared receiver
+- NE555 timer for signal conditioning
+- LED output indicator
+- Operates on 5 V DC
+- Screw terminal connections
+
+## Design Highlights
+- Clean separation of sensor and timing circuitry
+- RC network for stable triggering
+- Visual LED feedback for signal detection
+
+## Files Included
+- IR Switch.kicad_sch – Schematic
+- PCB layout file
+- Schematic PDF
+- 3D PCB render
+
+## Tools Used
+- KiCad 9
+- Mixed-signal PCB design
+
+## Skills Demonstrated
+- Infrared sensor integration
+- 555 timer applications
+- Signal conditioning
+- Sensor-based PCB design

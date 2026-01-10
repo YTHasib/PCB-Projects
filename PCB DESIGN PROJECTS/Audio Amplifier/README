@@ -1,0 +1,36 @@
+# Audio Amplifier PCB
+
+A low-power audio amplifier PCB designed using the LM386 audio amplifier IC.  
+This board amplifies a low-level audio signal to drive a small speaker or external audio load.
+
+## Overview
+The design focuses on simplicity, clean signal routing, and ease of assembly using through-hole components. It includes adjustable gain and proper input/output coupling to ensure stable audio performance.
+
+## Key Features
+- LM386-based audio amplifier
+- Adjustable gain using a potentiometer
+- AC-coupled input and output
+- Operates on a 12 V DC supply
+- Screw terminals for audio input and output
+
+## Design Highlights
+- Input coupling capacitor to block DC offsets
+- External gain control network
+- Output decoupling for load protection
+- Compact single-layer PCB layout
+
+## Files Included
+- Audio Amplifier.kicad_sch – Schematic
+- Audio Amplifier.kicad_pcb – PCB layout
+- schematic.pdf – Exported schematic
+- pcb_3d.png – 3D PCB render
+
+## Tools Used
+- KiCad 9
+- Through-hole components
+
+## Skills Demonstrated
+- Analog circuit design
+- Audio signal amplification
+- PCB schematic capture and layout
+- Design documentation and visualization
